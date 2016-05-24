@@ -468,10 +468,11 @@ input:focus, textarea:focus {
 @media screen and (max-width: 500px){
 	/*portada*/
 
-    .portada .button, .formulario .button{
+    .portada .button{
         display: block;
-        align-items: stretch;
+
     }
+
     .precios .header .logotipo{
         margin: 50px 0;
     }
@@ -545,6 +546,11 @@ input:focus, textarea:focus {
     }
 
 	/*guitarras*/
+    /*footer*/
+    .formulario .button{
+        align-items: stretch;
+    }
+    /*footer*/
 }
 video {
     width: 100%;
